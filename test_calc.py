@@ -3,7 +3,7 @@ from calc import add
 def test_add():
     assert add(2, 3) == 5
     
-print("✅ All tests passed!")
+print("All tests passed!")
 test_add()
 ```
 
@@ -11,16 +11,16 @@ test_add()
 
 ### **Step 3: The Workflow Will Automatically Run Again!**
 
-After you commit these files, GitHub Actions will automatically trigger again, and this time it will work! ✅
+After you commit these files, GitHub Actions will automatically trigger again, and this time it will work! 
 
 ---
 
-## 📁 Your Repository Should Have These Files:
+##  Your Repository Should Have These Files:
 ```
 ci-cd-lab/
 ├── .github/
 │   └── workflows/
-│       └── hello-ci.yml  ✅ You have this
-├── calc.py              ❌ MISSING - Create this!
-├── test_calc.py         ❌ MISSING - Create this!
+│       └── hello-ci.yml   You have this
+├── calc.py               MISSING - Create this!
+├── test_calc.py          MISSING - Create this!
 └── README.md
